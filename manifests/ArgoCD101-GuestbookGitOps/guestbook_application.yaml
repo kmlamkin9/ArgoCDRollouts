@@ -10,8 +10,4 @@ spec:
   project: default
   source:
     path: manifests/ArgoCD101-GuestbookManifests/
-    repoURL: https://github.com/<username>/ArgoCDRollouts
- syncPolicy:
-  automated:
-    prune: true
-    selfHeal: true
+    repoURL: https://github.com/kmlamkin9/ArgoCDRollouts
